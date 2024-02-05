@@ -1,0 +1,74 @@
+/*p {
+    font-size:20px;
+    color:red;
+}*/
+
+/*
+p, ul, ol {
+    color:green;
+}
+*/
+
+.standout
+{
+    color:blue;
+}
+/**
+h2.standout
+{
+    color:green;
+}*/
+
+.standout, .bold_text
+{
+    color:red;
+}
+
+p[align] 
+{
+    color:red;
+}
+
+p[align="center"] 
+{
+    color:blue;
+}
+
+p.hkbu_info
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.hkbu_hist
+{
+    font-family: 'Courier New', Courier, monospace;
+    /*font-size:30px; /*200;*/ /* 18px;*/
+    /*
+    font-weight:normal;
+    font-style: italic;
+    */
+    /*text-decoration: underline; /*underline, overline, line-through*/
+    text-align:right;
+    /*line-height: 1em;
+    letter-spacing: 0em;
+    word-spacing: 0.1em;
+    text-indent:32px;
+    /*background:rgb(0, 255, 255);*/
+    /*background:rgba(0, 255, 255, 0.25);
+    /*background:linear-gradient(red,orange);*/
+    /*background:radial-gradient(red,orange);*/
+}
+
+/*
+p.hkbu_pict
+{
+    background-image: url(images/hkbu_buildings.jpg);
+    width: 1100px;
+    height: 633px;
+}
+*/
+img.hkbu_logo
+{
+    color:rgba(255, 255, 0, 1);
+    vertical-align: text-bottom;
+}
